@@ -5,26 +5,100 @@
     background-repeat: no-repeat;
     height: 800px;
     width: auto;
+    padding: 120px;
 }
 .header{
     font-family: 'Work Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 65px;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    margin-right: 80px;
+    
 }
 .banner-section{
-    text-align: center;
+    text-align: right ;
 }
 .btn-primary{
     background: #FFFFFF;
     
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-color: #005FAC;
-width: 160px;
-height: 64px;
-border-radius: 5px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+
+}
+.para1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: right;
+}
+/* about styles starts here */
+.about{
+    display: flex;
+}
+.failure{
+    margin-top: 300px;
+    margin-right: 300px;
+    
+
+}
+.para2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 16px;
+    color: #444343;
+    
+}
+.failure-heading{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+ul {
+    list-style: none;
+  }
+  
+ul li:before {
+    content: '✓';
+    color: green;
+}
+.plans{
+    display: flex;
+    margin-left: 300px;
+    text-align: center;
+    
+}
+.plans h1{
+    text-align: center;
+}
+.plan-list{
+    margin-right: 150px;
+}
+/* watch image */
+.bgimage{
+    margin-top: 100px;
+    background-image: url(../images/watch.png);
+    margin-left:300px ;
+    margin-right: 250px;
+    height: 300px;
+
+}
+.bg-heading{
+    padding-top: 50px;
+    padding-left: 30px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
 }
