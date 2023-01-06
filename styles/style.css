@@ -1,0 +1,30 @@
+/* banner*/
+.banner{
+    background-image: url(../images/banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: auto;
+}
+.header{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+color: #FFFFFF;
+}
+.banner-section{
+    text-align: center;
+}
+.btn-primary{
+    background: #FFFFFF;
+    
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+color: #005FAC;
+width: 160px;
+height: 64px;
+border-radius: 5px;
+}
