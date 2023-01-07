@@ -36,6 +36,7 @@
     width: 160px;
     height: 64px;
     border-radius: 5px;
+    margin-top: 30px;
 
 }
 .para1{
@@ -93,10 +94,12 @@ ul li:before {
 /* watch image */
 .bgimage{
     margin-top: 100px;
-    background-image: url(../images/watch.png);
+    background: linear-gradient(0.25turn, #1537d0, #5a5cd8, #180d01);
+    
     margin-left:300px ;
     margin-right: 250px;
     height: 300px;
+    
 
 }
 .bg-heading{
@@ -160,4 +163,16 @@ ul li:before {
 }
 .para3{
     padding-top: 10px;
+}
+.skills{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 250px;
+
+}
+.skill-list{
+    background: #178ad1;
+    margin-right: 30px;
+    height: 250px;
+    padding: 30px ;
 }
