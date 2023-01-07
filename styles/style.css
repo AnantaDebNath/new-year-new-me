@@ -112,6 +112,7 @@ ul li:before {
     font-size: 25px;
     color: #FFFFFF;
 }
+/* footer section */
 .footer{
     height: 400px;
     display: flex;
@@ -164,6 +165,7 @@ ul li:before {
 .para3{
     padding-top: 10px;
 }
+/* Skills Section */
 .skills{
     display: flex;
     margin-left: 300px;
