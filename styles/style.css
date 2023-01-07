@@ -13,11 +13,14 @@
     font-weight: 700;
     font-size: 65px;
     color: #FFFFFF;
-    margin-right: 80px;
+    /* margin-right: 80px; */
     
 }
 .banner-section{
     text-align: right ;
+    padding-left: 600px;
+    padding-right: 100px;
+    padding-top: 200px;
 }
 .btn-primary{
     background: #FFFFFF;
@@ -96,6 +99,7 @@ ul li:before {
 .bg-heading{
     padding-top: 50px;
     padding-left: 30px;
+    padding-right: 400px;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
